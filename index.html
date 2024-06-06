@@ -1,21 +1,338 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Zusammenfassung Modul 293</title>
+     <meta charset="UTF-8">
+     <title>Zusammenfassung Modul 293</title>
 
 </head>
 <body>
-  <header>
-    
-  </header>
-  <nav>
-    
-  </nav>
-  <h1>Zusammenfassung Modul 293</h1>
+<header>
 
-  <footer>
-    
-  </footer>
+</header>
+<nav style="background: aliceblue">
+     <ul>
+          <li>
+               <a href="#section1">Lektion 1</a>
+               <a href="#section3">Lektion 3</a>
+               <a href="#section5">Lektion 5</a>
+          </li>
+          <li>
+               <a href="#section2">Lektion 2</a>
+               <a href="#section4">Lektion 4</a>
+               <a href="#section6">Lektion 6</a>
+          </li>
+     </ul>
+
+</nav>
+<h1>Zusammenfassung Modul 293</h1>
+<section id="section1">
+     <h2>Lektion 1</h2>
+     <h3>HTML, CSS</h3>
+     <p>
+
+          Wenn Sie eine Webseite erstellen, hat jede Technologie eine bestimmte Aufgabe:
+
+          HTML: Struktur und Inhalt der Webseite
+          CSS: Formatierung und Gestaltung
+
+          Im Modul 293 werden wir uns zunächst um den Inhalt und die Struktur unserer Webseiten kümmern. Daher werden
+          Sie zunächst die Auszeichnissprache HTML kennen lernen.
+
+          Später lernen Sie CSS kennen, um die optische Gestaltung der Webseiten zu verbessern.
+     </p>
+     <h3>Element</h3>
+     <p>Die Elemente sind die Bausteine von HTML. Jedes Element wird durch ein Tag markiert und kann weitere,
+          verschachtelte Elemente enthalten. </p>
+     <h3>Attribute</h3>
+     <p>
+
+          Attribute können nur innerhalb eines Tags vorkommen und enthalten zusätzliche Angaben zur Verarbeitung des
+          Tags, z.B.
+          html lang=“de”. Mit dem Attribut lang=“de” legen wir fest, dass der Inhalt dieser Webseite in deutscher
+          Sprache ist.
+
+          Die meisten Attribute bestehen aus einem Schlüsselwort und einem Wert.
+          Der Wert eines Attributs wird zwischen Anführungszeichen (double quotes) geschrieben 1)
+
+     </p>
+     <h3>HTML Grundgerüst</h3>
+     <h4>!DOCTYPE html</h4>
+     <p>
+
+          Auf der ersten Zeile legen wir die Dokumentenart (engl. Document Type Definition (DTD) fest. Durch den
+          !DOCTYPE html weiss der Browser, wie er diese Webseite darstellen soll.
+
+          DOCTYPE sieht einem HTML-Tag ähnlich, ist aber kein HTML-Tag. Es gibt zum Beispiel kein schliessendes Tag.
+     </p>
+     <div style="background: lightgray"><pre class="code html4strict" id="yui_3_17_2_1_1717681464405_351"><span
+             class="sc0">&lt;!DOCTYPE html&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/html.html"><span
+        class="kw2">html</span></a> <span class="kw3">lang</span><span class="sy0">=</span><span class="st0">"en"</span>&gt;</span>
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/head.html"><span
+          class="kw2">head</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span
+            class="kw2">meta</span></a> <span class="kw3">charset</span><span class="sy0">=</span><span class="st0">"UTF-8"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/title.html"><span class="kw2">title</span></a>&gt;</span>Title<span
+                  class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                               href="http://december.com/html/4/element/title.html"><span
+                  class="kw2">title</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/head.html"><span
+          class="kw2">head</span></a>&gt;</span>
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/body.html"><span
+          class="kw2">body</span></a>&gt;</span>
+&nbsp;
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/body.html"><span
+          class="kw2">body</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                   href="http://december.com/html/4/element/html.html"><span
+        class="kw2">html</span></a>&gt;</span></pre>
+     </div>
+</section>
+<section id="section2">
+     <h2>Lektion 2</h2>
+     <h3>nav</h3>
+     <p>Das Element
+          nav umschliesst die Navigation unseres Webauftritts. Es wird häufig innerhalb von
+          header platziert. </p>
+     <h3>main</h3>
+     <p>Der Inhalt unserer Webseite wird innerhalb von
+          main geschrieben. Dieser Bereich kann durch
+          article und section weiter unterteilt werden. </p>
+     <h3>article</h3>
+     <p>Ein Artikel stellt einen in sich geschlossenen Teil des Inhalts dar. Dieser kann aus
+          mehreren Abschnitten (
+          section) bestehen. </p>
+     <h3>section</h3>
+     <p>Das Element section bezeichnet einen Abschnitt innerhalb eines Artikels. </p>
+</section>
+<section id="section3">
+     <h2>Lektion 3</h2>
+     <h3>Block-Elemente</h3>
+     <div style="background: lightgray"><pre class="code file html5" id="yui_3_17_2_1_1717683370415_346"><span
+             class="sc0">&lt;!DOCTYPE html&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/html.html"><span
+        class="kw2">html</span></a> <span class="kw3">lang</span><span class="sy0">=</span><span class="st0">'de'</span>&gt;</span>
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/head.html"><span
+          class="kw2">head</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/meta.html"><span
+            class="kw2">meta</span></a> <span class="kw3">charset</span><span class="sy0">=</span><span class="st0">'UTF-8'</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/title.html"><span class="kw2">title</span></a>&gt;</span>LU03.A01 - Portfolio<span
+                  class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                               href="http://december.com/html/4/element/title.html"><span
+                  class="kw2">title</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/head.html"><span
+          class="kw2">head</span></a>&gt;</span>
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/body.html"><span
+          class="kw2">body</span></a>&gt;</span>
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/h1.html"><span class="kw2">h1</span></a>&gt;</span>Mein Portfolio<span
+                  class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                               href="http://december.com/html/4/element/h1.html"><span
+                  class="kw2">h1</span></a>&gt;</span>
+&nbsp;
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/section.html"><span class="kw2">section</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/h2.html"><span
+            class="kw2">h2</span></a>&gt;</span>Über mich<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/h2.html"><span class="kw2">h2</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/img.html"><span
+            class="kw2">img</span></a> <span class="kw3">src</span><span class="sy0">=</span><span
+            class="st0">"me.png"</span> <span class="kw3">alt</span><span class="sy0">=</span><span class="st0">"Ein Bild von mir"</span> <span
+            class="kw3">width</span><span class="sy0">=</span><span class="st0">"200"</span> <span
+            class="kw3">height</span><span class="sy0">=</span><span class="st0">"200"</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span>Ich bin ein professioneller Entwickler, spezialisiert auf das <span
+                  class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/strong.html"><span
+                  class="kw2">strong</span></a>&gt;</span>Durchsuchen<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/strong.html"><span class="kw2">strong</span></a>&gt;</span> von Code anderer Entwickler nach <span
+                  class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/strong.html"><span
+                  class="kw2">strong</span></a>&gt;</span>Fehlern<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/strong.html"><span class="kw2">strong</span></a>&gt;</span> und <span
+                  class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/strong.html"><span
+                  class="kw2">strong</span></a>&gt;</span>Sicherheitslücken<span class="sc2">&lt;<span
+                  class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/strong.html"><span
+                  class="kw2">strong</span></a>&gt;</span>. Ich liebe es, meine Fähigkeiten zu nutzen, um Software sicherer und effizienter zu machen.<span
+                  class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                               href="http://december.com/html/4/element/p.html"><span
+                  class="kw2">p</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/section.html"><span
+          class="kw2">section</span></a>&gt;</span>
+&nbsp;
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/section.html"><span class="kw2">section</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/h2.html"><span
+            class="kw2">h2</span></a>&gt;</span>Meine Hobbys<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/h2.html"><span class="kw2">h2</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/ul.html"><span
+            class="kw2">ul</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;</span>Programmieren<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;</span>Musik hören<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;</span>Wandern<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                       href="http://december.com/html/4/element/ul.html"><span
+            class="kw2">ul</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/section.html"><span
+          class="kw2">section</span></a>&gt;</span>
+&nbsp;
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/section.html"><span class="kw2">section</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/h2.html"><span
+            class="kw2">h2</span></a>&gt;</span>Lieblingsessen<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/h2.html"><span class="kw2">h2</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/ol.html"><span
+            class="kw2">ol</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;</span>Pizza<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;</span>Sushi<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;</span>Steak<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/li.html"><span class="kw2">li</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                       href="http://december.com/html/4/element/ol.html"><span
+            class="kw2">ol</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/section.html"><span
+          class="kw2">section</span></a>&gt;</span>
+&nbsp;
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/section.html"><span class="kw2">section</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/h2.html"><span
+            class="kw2">h2</span></a>&gt;</span>Soziale Medien<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/h2.html"><span class="kw2">h2</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/ul.html"><span
+            class="kw2">ul</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;&lt;<a target="_blank" href="http://december.com/html/4/element/a.html"><span
+              class="kw2">a</span></a> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"https://www.facebook.com/meinProfil"</span> <span
+              class="kw3">target</span><span class="sy0">=</span><span
+              class="st0">"_blank"</span>&gt;</span>Facebook<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a>&gt;&lt;<span
+                  class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span
+                  class="kw2">li</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;&lt;<a target="_blank" href="http://december.com/html/4/element/a.html"><span
+              class="kw2">a</span></a> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"https://www.twitter.com/meinProfil"</span> <span
+              class="kw3">target</span><span class="sy0">=</span><span
+              class="st0">"_blank"</span>&gt;</span>Twitter<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a>&gt;&lt;<span
+                  class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span
+                  class="kw2">li</span></a>&gt;</span>
+      <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/li.html"><span
+              class="kw2">li</span></a>&gt;&lt;<a target="_blank" href="http://december.com/html/4/element/a.html"><span
+              class="kw2">a</span></a> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"https://www.linkedin.com/meinProfil"</span> <span
+              class="kw3">target</span><span class="sy0">=</span><span
+              class="st0">"_blank"</span>&gt;</span>LinkedIn<span class="sc2">&lt;<span class="sy0">/</span><a
+                  target="_blank" href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a>&gt;&lt;<span
+                  class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/li.html"><span
+                  class="kw2">li</span></a>&gt;</span>
+    <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                       href="http://december.com/html/4/element/ul.html"><span
+            class="kw2">ul</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/section.html"><span
+          class="kw2">section</span></a>&gt;</span>
+&nbsp;
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                     href="http://december.com/html/4/element/body.html"><span
+          class="kw2">body</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                   href="http://december.com/html/4/element/html.html"><span
+        class="kw2">html</span></a>&gt;</span></pre>
+     </div>
+</section>
+<section id="section4">
+     <h2>Lektion 4</h2>
+     <p>In dieser Lektion geht es um Coding Style</p>
+     <div class="wrap_center wrap_round wrap_box plugin_wrap" style="width: 60%; background: lightgray"
+          id="yui_3_17_2_1_1717683662086_347">
+          <p id="yui_3_17_2_1_1717683662086_346">
+               <strong>Good:</strong>
+          </p>
+          <pre class="code html4strict"><span class="sc2">&lt;<a target="_blank"
+                                                                 href="http://december.com/html/4/element/body.html"><span
+                  class="kw2">body</span></a>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>&gt;</span>This is a paragraph.<span
+                       class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                                    href="http://december.com/html/4/element/p.html"><span
+                       class="kw2">p</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                   href="http://december.com/html/4/element/body.html"><span
+        class="kw2">body</span></a>&gt;</span></pre>
+
+          <p>
+               <strong>Bad:</strong>
+          </p>
+          <pre class="code html4strict"><span class="sc2">&lt;<a target="_blank"
+                                                                 href="http://december.com/html/4/element/body.html"><span
+                  class="kw2">BODY</span></a>&gt;</span>
+<span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/p.html"><span class="kw2">P</span></a>&gt;</span>This is a paragraph.<span
+                       class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                                    href="http://december.com/html/4/element/p.html"><span
+                       class="kw2">P</span></a>&gt;</span>
+<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank"
+                                                   href="http://december.com/html/4/element/body.html"><span
+        class="kw2">BODY</span></a>&gt;</span></pre>
+     </div>
+</section>
+<section id="section5">
+     <h2>HTTP und Adressen</h2>
+     <h3>HTTP-Methoden</h3>
+     <p>
+
+          Die Angabe einer HTTP-Methode bestimmt den Aufbau des Requests. Ausserdem zeigt sie dem Server an, welche Art
+          von Verarbeitung der Client wünscht.
+
+          Die wichtigsten Methoden für den Einstieg sind GET, POST (und PUT).
+     </p>
+     <h3>GET</h3>
+     <p>
+
+          Die Methode GET zeigt an, dass der Client Daten lesen möchte. Er erwartet vom Server eine Datei als Antwort.
+          Ein Request mit der Methode GET enthält nur Anfrage- und Header-Zeilen, keinen Body.
+
+          Mit dieser Methode lesen wir z.B. HTML-Dateien oder Bilder.
+     </p>
+     <h3>POST</h3>
+     <p>
+
+          Um Daten an den Server zu senden, verwendet der Client die POST-Methode. Der Client erwartet, dass der Server
+          die mitgesendeten Daten verarbeitet, zum Beispiel in eine Datenbank speichert. Nebst Anfrage- und Headerzeilen
+          enthält ein POST-Request einen Body mit den Daten.
+
+          Die Benutzereingaben in Formularen werden mit POST übermittelt.
+     </p>
+     <h3>PUT-Methode</h3>
+     <p> In manchen Webapplikationen wird neben POST auch die PUT-Methode verwendet. Sowohl POST als auch PUT senden
+          Daten an den Client zur Verarbeitung. Der Unterschied ist, ob es sich um ein neues Datenobjekt oder ein
+          bestehendes Datenobjekt handelt. Zur Verdeutlichung nehmen wir eine Webseite um Bücher zu erfassen bzw. zu
+          bearbeiten.
+
+          Der Benutzer erfasst ein neues Buch ⇒ POST. Der Server soll ein neues Buch mit den übermittelten Daten
+          einfügen.
+          Der Benutzer ändert die Angaben zu einem bestehenden Buch ⇒ PUT.
+     </p>
+
+</section>
+<section id="section6">
+     <h2>Formular Elemente</h2>
+<div style="background: lightgray"><pre class="code html4strict">...
+  <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/form.html"><span class="kw2">form</span></a> <span class="kw3">action</span><span class="sy0">=</span><span class="st0">'./index.php'</span> <span class="kw3">method</span><span class="sy0">=</span><span class="st0">'post'</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/label.html"><span class="kw2">label</span></a> <span class="kw3">for</span><span class="sy0">=</span><span class="st0">'email'</span>&gt;</span>Email<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/label.html"><span class="kw2">label</span></a>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/input.html"><span class="kw2">input</span></a> <span class="kw3">id</span><span class="sy0">=</span><span class="st0">'email'</span> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">'email'</span> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">'text'</span> <span class="sy0">/</span>&gt;</span>
+    <span class="sc2">&lt;<a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a> <span class="kw3">type</span><span class="sy0">=</span><span class="st0">'submit'</span>&gt;</span>Absenden<span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/button.html"><span class="kw2">button</span></a>&gt;</span>
+  <span class="sc2">&lt;<span class="sy0">/</span><a target="_blank" href="http://december.com/html/4/element/form.html"><span class="kw2">form</span></a>&gt;</span>
+...</pre></div>
+</section>
+<footer>
+
+</footer>
 </body>
 </html>
